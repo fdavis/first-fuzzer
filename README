@@ -3,6 +3,8 @@ This is my first fuzzer based out of the Udacity class CS258.
 Its intended use is:
 1.  select the programs you wish to open files with
     and write them into the "apps" list in first_fuzzer.py
-2.  use pull_files.py to bring files of a specific
+2.  mkdir files
+    mkdir results
+3.  use pull_files.py to bring files of a specific
     extension to the files/ directory
-3.  run first_fuzzer.py
+4.  run first_fuzzer.py
